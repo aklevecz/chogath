@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/ariel.klevecz/wowbot/wowbot"
+set -gx VIRTUAL_ENV "/Users/arielklevecz/wowbot/wowbot"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -52,7 +52,7 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Prompt override?
-        if test -n "(wowbot) "            
+        if test -n "(wowbot) "
             printf "%s%s" "(wowbot) " (set_color normal)
         else
             # ...Otherwise, prepend env
